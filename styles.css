@@ -39,6 +39,10 @@ h2 {
     color: #2cceb1;
 }
 
+.highlight {
+    color: #2cceb1;
+}
+
 /* navigation */
 
 nav {
@@ -136,7 +140,7 @@ h1 {
 
 .project {
     position: relative;
-    margin: 16px 0;
+    margin-bottom: 32px;
 }
 
 .project__img--wrapper {
@@ -152,10 +156,13 @@ h1 {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 24px;
+    padding: 36px;
     background-color: #292b2bc4;
     color: white;
     border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 /* benefits */
