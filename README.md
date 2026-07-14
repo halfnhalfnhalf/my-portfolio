@@ -9,6 +9,7 @@ features:
     skills list/technology stack
     project gallery
     links to my other professional pages
+    contact section
     good animations
     scalability
 
