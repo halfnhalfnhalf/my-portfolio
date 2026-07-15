@@ -4,6 +4,7 @@ description:
 this is a website to sell my skills to potential clients. it needs to informationally describe my skills, show examples of my skills, and be an example of my skills.
 
 features:
+
     navigation bar
     links to my other professional pages
     self introduction/header
@@ -15,6 +16,7 @@ features:
     scalability
 
 bonus features (if there is time):
+
     background images
     website banner
     logo
