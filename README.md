@@ -5,15 +5,16 @@ this is a website to sell my skills to potential clients. it needs to informatio
 
 features:
     navigation bar
-    self introduction/biography
+    links to my other professional pages
+    self introduction/header
     skills list/technology stack
     project gallery
-    links to my other professional pages
-    contact section
+    why have a website
+    about me
     good animations
     scalability
 
-bonus features:
+bonus features (if there is time):
     background images
     website banner
     logo
