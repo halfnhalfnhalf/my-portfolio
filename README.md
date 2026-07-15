@@ -25,3 +25,18 @@ bonus features (if there is time):
     fonts menu
     light/dark mode
     layout menu
+
+to-do:
+
+    get proper descriptions for all projects
+    make all text sizing look good
+    make nav buttons look good
+    choose a good font
+    adjust about me section sizing and padding/margins
+    make hover animations for: links, paragraphs, languages, and projects
+    make scalable in standard 1280, 768, 480 
+    make @keyframes load in animation
+
+    potentially watch a video on using strong tags and its counterpart for SEO
+
+    get domain name and launch website
