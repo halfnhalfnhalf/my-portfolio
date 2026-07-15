@@ -210,3 +210,13 @@ h1 {
 footer {
     background-color: #000000;
 }
+
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    color: #c1c1c1;
+}
