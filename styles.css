@@ -20,6 +20,7 @@ img {
 h2 {
     margin-bottom: 36px;
     text-align: center;
+    font-size: 28px;
 }
 
 .container {
@@ -61,11 +62,22 @@ nav .row{
 
 .nav__links {
     display: flex;
+    align-items: center;
 }
 
 .nav__link a {
-    margin-left: 8px;
     color: #fff;
+    font-weight: 500;
+}
+
+.nav__link {
+    margin-left: 16px;
+}
+
+.nav__link--primary {
+    background-color: #2cceb1;
+    padding: 8px 24px;
+    border-radius: 500px;
 }
 
 /* header */
@@ -222,4 +234,8 @@ footer .row {
 
 .copyright {
     color: #c1c1c1;
+}
+
+footer .nav__link a {
+    font-size: 20px;
 }

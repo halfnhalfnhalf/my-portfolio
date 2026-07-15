@@ -30,7 +30,7 @@ to-do:
 
     get proper descriptions for all projects---
     make all text sizing look good---
-    make nav buttons look good
+    make nav buttons look good---
     choose a good font---
     adjust about me section sizing and padding/margins
     consider how header looks at 150% zoom
