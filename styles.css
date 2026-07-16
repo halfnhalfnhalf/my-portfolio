@@ -123,6 +123,7 @@ header .row {
 
 .header__description {
     width: 50%;
+    min-width: 372px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,6 +173,7 @@ h1 {
 
 .language__img--wrapper {
     width: 200px;
+    margin: 0 auto;
 }
 
 .language {
@@ -323,18 +325,12 @@ footer .nav__link a {
 /* responsive design */
 
 @media (max-width: 1080px) {
-    .header__img--wrapper {
-        /* width: 60%; */
-    }
     .about__me__description {
         margin-left: 16px;
     }
 }
 
 @media (max-width: 948px) {
-    .header__img--wrapper {
-        /* width: 70%; */
-    }
 
     #about__me .row {
         flex-direction: column;
@@ -343,10 +339,17 @@ footer .nav__link a {
     .about__me__description {
         margin-left: 0;
         margin-top: 32px;
-        width: 80%;
+        width: 100%;
+        max-width: 680px;
     }
 
     .about__me__img--wrapper {
         width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .language__img--wrapper {
+        width: 80%;
     }
 }
