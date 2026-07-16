@@ -271,14 +271,20 @@ h1 {
 #about__me .row {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .about__me__description {
-    width: 55%;
+    width: 50%;
+    min-width: 530px;
     margin-left: 64px;
     background-color: #ededed;
     padding: 24px;
     border-radius: 16px;
+}
+
+.about__me__img--wrapper {
+    width: 40%;
 }
 
 .about__me--para {
