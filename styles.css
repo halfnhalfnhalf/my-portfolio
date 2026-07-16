@@ -77,7 +77,7 @@ nav .row{
     position: relative;
 }
 
-.nav__link::after {
+nav .nav__link::after {
     position: absolute;
     content: "";
     width: 0%;
@@ -89,7 +89,7 @@ nav .row{
     transition: all 300ms ease;
 }
 
-.nav__link:hover::after {
+nav .nav__link:hover::after {
     width: 100%;
 }
 
@@ -146,6 +146,7 @@ h1 {
 }
 
 .header__img--wrapper {
+    max-width: 90%;
     width: 608px;
     height: 100%;
     margin-bottom: 16px;
@@ -197,7 +198,7 @@ h1 {
 }
 
 .projects__list {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -214,7 +215,8 @@ h1 {
     overflow: hidden;
     border-radius: 16px;
     display: flex;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     box-shadow: 0 1px 10px 1px #00000053;
 }
 
@@ -351,5 +353,21 @@ footer .nav__link a {
 @media (max-width: 768px) {
     .language__img--wrapper {
         width: 80%;
+    }
+    .about__me__img--wrapper {
+        width: 356px;
+        max-width: 80%;
+    }
+    .about__me__description {
+        min-width: 300px;
+    }
+    .row {
+        padding: 0 16px;
+    }
+}
+
+@media (max-width: 648px) {
+    nav .nav__link:nth-child(1), nav .nav__link:nth-child(2) {
+        display: none;
     }
 }
