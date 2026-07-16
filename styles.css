@@ -59,7 +59,8 @@ nav .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 64px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 .nav__links {
@@ -369,5 +370,18 @@ footer .nav__link a {
 @media (max-width: 648px) {
     nav .nav__link:nth-child(1), nav .nav__link:nth-child(2) {
         display: none;
+    }
+    .header__description {
+        min-width: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .project__description h3 {
+        font-size: 16px;
+    }
+    .project--para {
+        font-size: 12px;
     }
 }
