@@ -112,7 +112,9 @@ nav .nav__link:hover::after {
 /* header */
 
 header .container {
-    height: calc(100vh - 64px);
+    height: calc(100vh - 58px);
+    min-height: 768px;
+    max-height: 1400px;
 }
 
 header .row {
