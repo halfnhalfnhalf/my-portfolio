@@ -299,6 +299,15 @@ footer {
 
 footer .row {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__main {
+    width: 100%;
+    margin-bottom: 32px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
